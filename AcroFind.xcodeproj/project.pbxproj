@@ -12,10 +12,17 @@
 		A5D403561C889351002D21DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D403551C889351002D21DD /* ViewController.m */; };
 		A5D403591C889351002D21DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D403571C889351002D21DD /* Main.storyboard */; };
 		A5D4035B1C889351002D21DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D4035A1C889351002D21DD /* Assets.xcassets */; };
-		A5D4035E1C889351002D21DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D4035C1C889351002D21DD /* LaunchScreen.storyboard */; };
+		A5D403681C889C53002D21DD /* acro.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D403671C889C53002D21DD /* acro.m */; };
+		A5D4036D1C88A386002D21DD /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D4036C1C88A386002D21DD /* WebService.m */; };
+		A5D403711C88AA2E002D21DD /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D403701C88AA2E002D21DD /* Constants.m */; };
+		A5D403731C88B967002D21DD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5D403721C88B967002D21DD /* Localizable.strings */; };
+		A5D403761C88EAA8002D21DD /* VarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D403751C88EAA8002D21DD /* VarsViewController.m */; };
+		B7FC737124381B6055E3090C /* libPods-AcroFind.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 882569A2DE73384D7FA51B98 /* libPods-AcroFind.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FD4F1991CC8065C040AD3EE /* Pods-AcroFind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcroFind.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AcroFind/Pods-AcroFind.debug.xcconfig"; sourceTree = "<group>"; };
+		882569A2DE73384D7FA51B98 /* libPods-AcroFind.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AcroFind.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D4034B1C889351002D21DD /* AcroFind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AcroFind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5D4034F1C889351002D21DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5D403511C889351002D21DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -24,8 +31,17 @@
 		A5D403551C889351002D21DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A5D403581C889351002D21DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5D4035A1C889351002D21DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A5D4035D1C889351002D21DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5D4035F1C889351002D21DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D403661C889C53002D21DD /* acro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = acro.h; sourceTree = "<group>"; };
+		A5D403671C889C53002D21DD /* acro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = acro.m; sourceTree = "<group>"; };
+		A5D4036B1C88A386002D21DD /* WebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebService.h; sourceTree = "<group>"; };
+		A5D4036C1C88A386002D21DD /* WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
+		A5D4036F1C88AA2E002D21DD /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		A5D403701C88AA2E002D21DD /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		A5D403721C88B967002D21DD /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		A5D403741C88EAA8002D21DD /* VarsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VarsViewController.h; sourceTree = "<group>"; };
+		A5D403751C88EAA8002D21DD /* VarsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VarsViewController.m; sourceTree = "<group>"; };
+		CD8E94F218B60E3EF475C94C /* Pods-AcroFind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AcroFind.release.xcconfig"; path = "Pods/Target Support Files/Pods-AcroFind/Pods-AcroFind.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7FC737124381B6055E3090C /* libPods-AcroFind.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21337E807B054DF4B65A4BEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				882569A2DE73384D7FA51B98 /* libPods-AcroFind.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A5D403421C889351002D21DD = {
 			isa = PBXGroup;
 			children = (
+				A5D4036E1C88A9F9002D21DD /* Global */,
+				A5D403691C88A2F5002D21DD /* WebService */,
+				A5D403651C889C10002D21DD /* Model */,
 				A5D4034D1C889351002D21DD /* AcroFind */,
 				A5D4034C1C889351002D21DD /* Products */,
+				EC0A18F1F716999864CFF43F /* Pods */,
+				21337E807B054DF4B65A4BEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,9 +92,10 @@
 				A5D403521C889351002D21DD /* AppDelegate.m */,
 				A5D403541C889351002D21DD /* ViewController.h */,
 				A5D403551C889351002D21DD /* ViewController.m */,
+				A5D403741C88EAA8002D21DD /* VarsViewController.h */,
+				A5D403751C88EAA8002D21DD /* VarsViewController.m */,
 				A5D403571C889351002D21DD /* Main.storyboard */,
 				A5D4035A1C889351002D21DD /* Assets.xcassets */,
-				A5D4035C1C889351002D21DD /* LaunchScreen.storyboard */,
 				A5D4035F1C889351002D21DD /* Info.plist */,
 				A5D4034E1C889351002D21DD /* Supporting Files */,
 			);
@@ -79,6 +110,43 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A5D403651C889C10002D21DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A5D403661C889C53002D21DD /* acro.h */,
+				A5D403671C889C53002D21DD /* acro.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A5D403691C88A2F5002D21DD /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				A5D4036B1C88A386002D21DD /* WebService.h */,
+				A5D4036C1C88A386002D21DD /* WebService.m */,
+			);
+			name = WebService;
+			sourceTree = "<group>";
+		};
+		A5D4036E1C88A9F9002D21DD /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				A5D403721C88B967002D21DD /* Localizable.strings */,
+				A5D4036F1C88AA2E002D21DD /* Constants.h */,
+				A5D403701C88AA2E002D21DD /* Constants.m */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		EC0A18F1F716999864CFF43F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FD4F1991CC8065C040AD3EE /* Pods-AcroFind.debug.xcconfig */,
+				CD8E94F218B60E3EF475C94C /* Pods-AcroFind.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +154,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5D403621C889351002D21DD /* Build configuration list for PBXNativeTarget "AcroFind" */;
 			buildPhases = (
+				4B1FB36CE298F69F3F808522 /* Check Pods Manifest.lock */,
 				A5D403471C889351002D21DD /* Sources */,
 				A5D403481C889351002D21DD /* Frameworks */,
 				A5D403491C889351002D21DD /* Resources */,
+				EFC4A312717EF39751D9EDE2 /* Embed Pods Frameworks */,
+				76F154F7F9DF8C488B84F583 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,13 +208,61 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5D4035E1C889351002D21DD /* LaunchScreen.storyboard in Resources */,
 				A5D4035B1C889351002D21DD /* Assets.xcassets in Resources */,
+				A5D403731C88B967002D21DD /* Localizable.strings in Resources */,
 				A5D403591C889351002D21DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B1FB36CE298F69F3F808522 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		76F154F7F9DF8C488B84F583 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcroFind/Pods-AcroFind-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFC4A312717EF39751D9EDE2 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AcroFind/Pods-AcroFind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A5D403471C889351002D21DD /* Sources */ = {
@@ -152,7 +271,11 @@
 			files = (
 				A5D403561C889351002D21DD /* ViewController.m in Sources */,
 				A5D403531C889351002D21DD /* AppDelegate.m in Sources */,
+				A5D4036D1C88A386002D21DD /* WebService.m in Sources */,
+				A5D403711C88AA2E002D21DD /* Constants.m in Sources */,
+				A5D403681C889C53002D21DD /* acro.m in Sources */,
 				A5D403501C889351002D21DD /* main.m in Sources */,
+				A5D403761C88EAA8002D21DD /* VarsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,14 +288,6 @@
 				A5D403581C889351002D21DD /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A5D4035C1C889351002D21DD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A5D4035D1C889351002D21DD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -260,6 +375,7 @@
 		};
 		A5D403631C889351002D21DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FD4F1991CC8065C040AD3EE /* Pods-AcroFind.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AcroFind/Info.plist;
@@ -271,6 +387,7 @@
 		};
 		A5D403641C889351002D21DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD8E94F218B60E3EF475C94C /* Pods-AcroFind.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AcroFind/Info.plist;
@@ -299,6 +416,7 @@
 				A5D403641C889351002D21DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
